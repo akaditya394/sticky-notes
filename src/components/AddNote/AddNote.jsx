@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "./AddNote.module.css";
 
 const AddNote = (props) => {
   const [noteTitle, setNoteTitle] = useState("");
@@ -30,31 +31,31 @@ const AddNote = (props) => {
 
   return (
     <div>
-      <form>
-        <label for="note-title">Note Title</label>
-        <br />
-        <input
-          type="text"
-          name="note-title"
-          onChange={titleChangeHandler}
-          value={noteTitle}
-        />
-        <br />
-        <label for="note-title">Note</label>
-        <br />
-        <textarea
-          rows="5"
-          cols="30"
-          type="text"
-          name="note"
-          onChange={textChangeHandler}
-          value={noteText}
-        />
-        <br />
-        <button type="submit" onClick={handleSubmit}>
-          Add
-        </button>
-      </form>
+      <div className={styles.addNote}>
+        <form>
+          <input
+            type="text"
+            name="note-title"
+            placeholder="note title"
+            onChange={titleChangeHandler}
+            value={noteTitle}
+          />
+          <br />
+          <textarea
+            rows="5"
+            cols="30"
+            type="text"
+            name="note"
+            placeholder="what's on your mind?"
+            onChange={textChangeHandler}
+            value={noteText}
+          />
+          <br />
+          <button type="submit" onClick={handleSubmit}>
+            Add
+          </button>
+        </form>
+      </div>
     </div>
   );
 };
