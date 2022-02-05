@@ -5,13 +5,10 @@ import Note from "../src/components/Note/Note"
 
 const App = () => {
 
-
-  const [notes, setNotes] = useState([]);
-
   return (
     <div className={styles.flexbox}>
-      <AddNote />
-      <Note title={notes.title} text={notes.text}  />
+      <AddNote/>
+      <Note title="hey there" text="wassup"/>
     </div>
   );
 };

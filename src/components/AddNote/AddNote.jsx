@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const AddNote = () => {
+const AddNote = (props) => {
   const [noteTitle, setNoteTitle] = useState("");
   const [noteText, setNoteText] = useState("");
 
@@ -24,7 +24,12 @@ const AddNote = () => {
       <form>
         <label for="note-title">Note Title</label>
         <br />
-        <input type="text" name="note-title" onChange={titleChangeHandler} value={noteTitle}/>
+        <input
+          type="text"
+          name="note-title"
+          onChange={titleChangeHandler}
+          value={noteTitle}
+        />
         <br />
         <label for="note-title">Note</label>
         <br />
