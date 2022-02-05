@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./App.module.css";
 import AddNote from "../src/components/AddNote/AddNote";
 import Note from "../src/components/Note/Note";
+import Header from "../src/components/Header/Header";
 
 const App = () => {
   const [notes, setNotes] = useState([]);
@@ -21,6 +22,7 @@ const App = () => {
 
   return (
     <div className={styles.app}>
+    <Header />
       <div className={styles.flexbox}>
         <AddNote onAddNote={addNote} />
         {(notes.length > 0) &&
