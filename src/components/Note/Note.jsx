@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Note.module.css";
 
-const Note = () => {
+const Note = (props) => {
   return (
     <div>
       <div className={styles.note}>
-        <h3>Note Title</h3>
-        <p> Note Text</p>
+        <h3>{props.title}</h3>
+        <p>{props.text}</p>
       </div>
     </div>
   );

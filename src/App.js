@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className={styles.flexbox}>
       <AddNote />
-      <Note  />
+      <Note title={notes.title} text={notes.text}  />
     </div>
   );
 };
