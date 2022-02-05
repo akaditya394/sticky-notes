@@ -1,21 +1,22 @@
 .addNote {
   margin-top: 1rem;
   padding: 1rem;
-  background-color: hsl(56, 100%, 77%);
+  color: white;
+  background-color: #04A3FF;
   border-radius: 20px;
-  box-shadow: hsla(56, 100%, 77%, 0.5) 0px 3px 6px,
-    hsla(56, 100%, 77%, 0.6) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 }
 
 textarea {
   outline: none;
   border: none;
+  color:white;
   border-radius: 2rem;
   padding: 15px;
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 1rem;
   margin: 5px 0 5px 0;
-  background-color: hsl(56, 100%, 60%);
+  background-color: #0BCCFF;
 }
 
 textarea:hover {
@@ -26,12 +27,13 @@ textarea:hover {
 input {
   border: none;
   outline: none;
+  color: white;
   height: 30px;
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 1rem;
   border-radius: 5rem;
   padding: 1rem;
-  background-color: hsl(56, 100%, 60%);
+  background-color: #0BCCFF;
 }
 
 input:hover {
@@ -43,8 +45,9 @@ button {
   width: 5rem;
   border-radius: 5px;
   padding: 5px;
-  background-color: hsl(56, 100%, 60%);
+  background-color: #0BCCFF;
   border: none;
+  color: white;
 }
 
 button:hover {

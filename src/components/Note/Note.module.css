@@ -1,6 +1,6 @@
 .note {
   margin: 2rem 0;
-  background-color: hsl(56, 100%, 60%);
+  background-color: #4507FF;
   min-height: 200px;
   width: 600px;
   text-align: left;
@@ -13,13 +13,14 @@
 .note h2 {
   font-family: "Gloria Hallelujah", cursive;
   font-weight: 700 !important;
-  color: hsl(0, 0%, 0%);
+  color: white;
 }
 
 p {
   font-size: 1rem;
   font-family: "Gloria Hallelujah", cursive;
   font-weight: 300;
+  color: white;
 }
 
 
