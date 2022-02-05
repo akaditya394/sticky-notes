@@ -1,7 +1,12 @@
-import React from 'react';
+import React from "react";
+import AddNote from "../src/components/AddNote/AddNote";
 
 const App = () => {
-  return <div><h1>hello world</h1></div>;
+  return (
+    <div>
+      <AddNote />
+    </div>
+  );
 };
 
 export default App;
