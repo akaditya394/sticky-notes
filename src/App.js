@@ -20,10 +20,12 @@ const App = () => {
   };
 
   return (
+    <div className={styles.app}>
     <div className={styles.flexbox}>
       <AddNote onAddNote={addNote} />
       {notes.map((note) => (<Note key={note.id} title={note.title} text={note.text} />))}
       
+    </div>
     </div>
   );
 };
