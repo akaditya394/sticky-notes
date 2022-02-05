@@ -1,6 +1,6 @@
 .addNote {
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 1rem;
+  padding: 1rem;
   background-color: hsl(56, 100%, 77%);
   border-radius: 20px;
   box-shadow: hsla(56, 100%, 77%, 0.5) 0px 3px 6px,
@@ -10,10 +10,10 @@
 textarea {
   outline: none;
   border: none;
-  border-radius: 20px;
+  border-radius: 2rem;
   padding: 15px;
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 5px 0 5px 0;
   background-color: hsl(56, 100%, 60%);
 }
@@ -28,9 +28,9 @@ input {
   outline: none;
   height: 30px;
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 16px;
-  border-radius: 20px;
-  padding: 15px;
+  font-size: 1rem;
+  border-radius: 5rem;
+  padding: 1rem;
   background-color: hsl(56, 100%, 60%);
 }
 
