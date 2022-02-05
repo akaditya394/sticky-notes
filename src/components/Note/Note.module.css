@@ -1,5 +1,5 @@
 .note {
-  margin: 20px 0;
+  margin: 2rem 0;
   background-color: hsl(56, 100%, 60%);
   min-height: 200px;
   width: 600px;
@@ -11,14 +11,27 @@
   border-radius: 20px 40px;
 }
 .note h3 {
-    font-family: 'Gloria Hallelujah', cursive;
-  font-size: 20px;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 1rem;
   font-weight: 700 !important;
-  color:hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 0%);
 }
 
 p {
-  font-size: 18px;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1rem;
+  font-family: "Gloria Hallelujah", cursive;
   font-weight: 300;
+}
+
+
+@media (max-width: 768px){
+    .note{
+        width:350px;
+    }
+}
+
+@media (max-width:400px){
+    .note{
+        width:250px;
+    }
 }
