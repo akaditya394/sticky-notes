@@ -14,6 +14,15 @@ const AddNote = (props) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    const noteData = {
+      title: noteTitle,
+      text: noteText,
+      id: Math.random().toString,
+    };
+
+    props.onAddNote(noteData);
+
     console.log(noteTitle, noteText);
     setNoteTitle("");
     setNoteText("");
